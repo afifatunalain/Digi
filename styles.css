@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer {
+    background-color: #1f1f1f !important;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #333 !important;
+}
+
+/* Background Images */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+/* Black Transparent Background */
+.bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+}
+
+/* Section Styling */
+.overview,
+.lottery,
+.community {
+   color: white;
+   padding: 60px 20px; /* Padding of 1rem */
+   position: relative;
+   overflow: hidden;
+}
+
+.separator {
+   height: 30px;
+   background-color: #0077be; /* Ocean blue separator */
+}
+
+/* Header Styling */
+h2, h3 {
+   color: #00bfff; /* Blue headers */
+}
+
+
+/* Video Background */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* TON Network & Solana Colors */
+.ton-network {
+   color: #007bff; /* Blue for TON network */
+}
+
+.solana {
+   color: #ff69b4; /* Pink-purple for Solana */
+}
+
+/* Page Link Styling */
+.page-link {
+   color: #00bfff; /* Light blue */
+   font-weight: bold;
+   transition: color 0.3s ease-in-out;
+}
+
+.page-link:hover {
+   color: #ff69b4; /* Pink-purple on hover */
+}
+
+/* Penguin Animation */
+.penguin-animation-container {
+   font-size: 24px;
+   animation: movePenguins 5s linear infinite;
+}
+/* Penguin Animation */
+.penguin {
+    font-size: 24px;
+    position: absolute;
+    animation: hideAndSeek 5s infinite;
+}
+
+/* @keyframes movePenguins {
+   from {
+       transform: translateX(-100%);
+   }
+   to {
+       transform: translateX(100%);
+   }!important*/
+}
